@@ -77,7 +77,7 @@ const Fish = () => {
     return <>
         <div className="detailPage">
             <div className="seperator">
-                <div className="basic">
+                <div className="basic fish">
                     <div id="name">{name}</div>
                     <div id="image">
                         <img src={image}/>

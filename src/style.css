@@ -48,6 +48,12 @@ header .active {
     margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 530px) {
+    .fish img {
+        height: 190px;
+    }
+}
+
 @media only screen and (max-width: 650px) {
     .detailPage {
         width: 80%;
@@ -95,11 +101,10 @@ header .active {
         grid-template-columns: auto auto auto auto auto auto auto auto;
     }
 
-    .insect, .sea {
-        width: 400px;
+    .insect, .sea, .fish {
+        min-width: 400px;
     }
 }
-
 
 .detailPage {
     text-align: center;
